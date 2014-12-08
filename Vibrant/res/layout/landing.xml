@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/landing_layout_veg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <Button
+                android:id="@+id/landing_button_vegetarian"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".3"
+                android:background="#729A18"
+                android:text="Vegetarian"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                android:scaleType="fitXY"
+                android:src="@drawable/vegmeal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/landing_layout_nonveg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                android:scaleType="fitXY"
+                android:src="@drawable/nnveg" />
+
+            <Button
+                android:id="@+id/landing_button_nonveg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:background="#FA7171"
+                android:text="Non-veg"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/landing_layout_bakery"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <Button
+                android:id="@+id/landing_button_bakery"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:background="#A1C9EA"
+                android:text="Bakery"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                android:scaleType="fitXY"
+                android:src="@drawable/bakery" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/landing_layout_sweets"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:scaleType="fitXY"
+                android:src="@drawable/sweets" />
+
+            <Button
+                android:id="@+id/landing_button_sweets"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:background="#B56ADB"
+                android:text="Sweets"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
