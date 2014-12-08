@@ -119,7 +119,7 @@ public class Home extends Activity implements OnClickListener {
 						@Override
 						public void onClick(DialogInterface dialog, int which) {
 							// TODO Auto-generated method stub
-							Intent callOne = new Intent(Intent.ACTION_DIAL);
+							Intent callOne = new Intent(Intent.ACTION_CALL);
 							callOne.setData(Uri.parse("tel:00919047012372"));
 							startActivity(callOne);
 						}
@@ -130,7 +130,7 @@ public class Home extends Activity implements OnClickListener {
 						@Override
 						public void onClick(DialogInterface dialog, int which) {
 							// TODO Auto-generated method stub
-							Intent callTwo = new Intent(Intent.ACTION_DIAL);
+							Intent callTwo = new Intent(Intent.ACTION_CALL);
 							callTwo.setData(Uri.parse("tel:00919047012374"));
 							startActivity(callTwo);
 						}
