@@ -41,7 +41,7 @@ public final class R {
         public static final int vegshape=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000d;
+        public static final int action_settings=0x7f09000f;
         public static final int home_button_about=0x7f090002;
         public static final int home_button_contact=0x7f090003;
         public static final int home_button_how=0x7f090000;
@@ -55,12 +55,15 @@ public final class R {
         public static final int landing_layout_nonveg=0x7f090007;
         public static final int landing_layout_sweets=0x7f09000b;
         public static final int landing_layout_veg=0x7f090005;
+        public static final int read_btn=0x7f09000d;
+        public static final int write_btn=0x7f09000e;
     }
     public static final class layout {
         public static final int home=0x7f030000;
         public static final int landing=0x7f030001;
-        public static final int newlanding=0x7f030002;
-        public static final int restaurantselector=0x7f030003;
+        public static final int main=0x7f030002;
+        public static final int newlanding=0x7f030003;
+        public static final int restaurantselector=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f080000;
